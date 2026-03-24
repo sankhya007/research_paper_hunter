@@ -1,30 +1,44 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.pyc.*
 
-# Virtual environment
+# =========================
+# Virtual Environments
+# =========================
 venv/
 env/
+research_env/
+.venv/
 
-# OS files
+# =========================
+# OS Files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Output data (VERY IMPORTANT)
+# =========================
+# Output / Generated Files
+# =========================
 output/
 temp_*.pdf
 
+# =========================
 # Logs
+# =========================
 *.log
 
-# IDE
+# =========================
+# IDE / Editor
+# =========================
 .vscode/
 .idea/
 
-# Memory file
+# =========================
+# Project-specific
+# =========================
 memory.json
-
-# Jupyter (if you ever use it)
-.ipynb_checkpoints/

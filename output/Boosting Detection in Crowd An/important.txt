@@ -1,0 +1,114 @@
+=== IMPORTANT INSIGHTS ===
+
+- Detection-basedmethodshavebeenviewedunfavorably
+- easilyintegratedwithexistingdetectionmodels. Thismod- Global Local
+- Figure1. Ourapproachinvolvesextractingoutputfeaturesfrom
+- limitationsofdetection-basedmethods. Ourextensiveeval-
+- detection-based methods in crowd analysis. Project Page: boundingboxesusingthedecouple-then-alignparadigm.
+- of point annotations. As a result, detection methods are
+- most existing methods mainly focus on the first two tasks
+- perparameter,butityieldsalargenumberoffalsepositives showing our method can be adapted to different de-
+- withinlow-densitycrowdsandfalsenegativeswithinhigh- tectionmethodswhileachievingbetterperformance.
+- Thirdly, current detection methods adopt the detection- 2.RelatedWork
+- Density-Based Methods Density-based methods have
+- Whilemostadvancedcrowdcountingmethodsaredensity-
+- density-basedmethods.
+- andconfidencescoreofproposalsandboundingboxes,are Localization-Based Methods To address the shortcom-
+- largelydisregarded. Thisinformationcanprovidevaluable ings of density-based methods in localization, researchers
+- insightsintocrowd-specificcharacteristics. Forinstance,in haveproposedlocalization-basedmethodssuchas[1,19,32,
+- densecrowds,boundingboxestendtobesmallerwithlower 48,58].Thesemethodsachievebetterperformanceincrowd
+- tendtoproduceboxeswithhigherconfidencescores. ber of points. However, while these methods outperform
+- Tothisend,weproposetheamoduleontopoftheHead density-based methods in localization, their counting per-
+- causeitcanbeadaptedtodifferentdetectionmethods,just
+
+=== FORMULAS ===
+
+- and A = {a ,a ,...,a } as the list of corresponding
+- and A = {a ,a ,...,a } as the list of corresponding
+- sider detection outputs as valuable features in crowd point annotations where a = (ax,ay) is the center lo-
+- sider detection outputs as valuable features in crowd point annotations where a = (ax,ay) is the center lo-
+- cation of k th head. B = {b ,b ,...,b ,...,b } denotes
+- cation of k th head. B = {b ,b ,...,b ,...,b } denotes
+- • We introduce region-adaptive NMS thresholds and a predictions, and the k th box is b = (bx,by,bw,bh,bc)
+- • We introduce region-adaptive NMS thresholds and a predictions, and the k th box is b = (bx,by,bw,bh,bc)
+- we denote P = {p ,p ,...,p ,...,p } as the set of pro- sparsetoconveyrepresentativeinformationsincethenum-
+- we denote P = {p ,p ,...,p ,...,p } as the set of pro- sparsetoconveyrepresentativeinformationsincethenum-
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: Detection-basedmethodshavebeenviewedunfavorably
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: easilyintegratedwithexistingdetectionmodels. Thismod- Global Local
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: limitationsofdetection-basedmethods. Ourextensiveeval-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: detection-based methods in crowd analysis. Project Page: boundingboxesusingthedecouple-then-alignparadigm.
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: of point annotations. As a result, detection methods are
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: most existing methods mainly focus on the first two tasks
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: perparameter,butityieldsalargenumberoffalsepositives showing our method can be adapted to different de-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: withinlow-densitycrowdsandfalsenegativeswithinhigh- tectionmethodswhileachievingbetterperformance.
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: Thirdly, current detection methods adopt the detection- 2.RelatedWork
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: Density-Based Methods Density-based methods have
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: Whilemostadvancedcrowdcountingmethodsaredensity-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: density-basedmethods.
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: andconfidencescoreofproposalsandboundingboxes,are Localization-Based Methods To address the shortcom-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: largelydisregarded. Thisinformationcanprovidevaluable ings of density-based methods in localization, researchers
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: insightsintocrowd-specificcharacteristics. Forinstance,in haveproposedlocalization-basedmethodssuchas[1,19,32,
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: densecrowds,boundingboxestendtobesmallerwithlower 48,58].Thesemethodsachievebetterperformanceincrowd
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: tendtoproduceboxeswithhigherconfidencescores. ber of points. However, while these methods outperform
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: Tothisend,weproposetheamoduleontopoftheHead density-based methods in localization, their counting per-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: causeitcanbeadaptedtodifferentdetectionmethods,just
+  Code: Implement logic based on description
+  Difficulty: Easy
+

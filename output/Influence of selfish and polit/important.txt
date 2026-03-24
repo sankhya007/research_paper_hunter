@@ -1,0 +1,70 @@
+=== IMPORTANT INSIGHTS ===
+
+- through a narrow exit. To this end, experiments involving about 80 participants with distinct pre-
+- Keyworks pedestrian, evacuation, behaviour, experimental,
+- Itisneedlesstosay,though,thatthedescriptionormodellingofthedynamicsofcrowdsis,atthevery
+- least, challenging. Since first-principles approaches are hopeless in any conceivable future, models have
+- simplephysicalmodelsindescribingincreasinglycomplexentities(complexfluids, bacteria[3], birdsand
+- fish [4]) bolsters the desire for similarly successful models for pedestrian crowds. But how detailed, or
+- “realistic”, need these models be to appropriately describe the flow of pedestrians in a given situation?
+- The numerous existing models and simulation software [5, 6] vary greatly as regards their sophistication,
+- from minimalistic cellular automata [7] to continuous agent-based models incorporating a large number
+- In the last decade, large-scale experiments of pedestrian flows through bottlenecks have been con-
+- to high (mild pushes) [11, 12]. These experiments provided evidence for the so called “faster-is-slower”
+- arches can be broken provided that the system is vibrated strongly enough [16]. Therefore, in a model,
+- Overall, the aforementioned experiments deal with relatively homogeneous crowds or systems. Here,
+- 3.1. Pedestrian evacuation experiments
+- We performed evacuation experiments involving more than 80 voluntary participants onthe premises
+- Inlightofitspotentialrisks, theexperimentwasvalidatedbeforehandforethicalissuesandprepared
+- Thisexperimentalsetupisdirectlyinspiredfrom[11,12],butsomesignificantchangeswereintroduced.
+- These experiments were briefly described in (China)
+- routine. The reproducibility of the experimental results was tested by performing two runs in nominally
+- Figure 1: (Left) Sketch of the experimental geometry, with a=7.3m, b=3.5m, and c=4.3m. (Right)
+
+=== FORMULAS ===
+
+- Figure 1: (Left) Sketch of the experimental geometry, with a=7.3m, b=3.5m, and c=4.3m. (Right)
+- Figure 1: (Left) Sketch of the experimental geometry, with a=7.3m, b=3.5m, and c=4.3m. (Right)
+- width w =3, 4 or 5cm and an opening angle of 58◦.
+- width w =3, 4 or 5cm and an opening angle of 58◦.
+- static friction coefficient was about µ 0.32 = tan(18◦). The chipwood panel was inclined by an angle
+- δt=7s and n the number of (independent) sampling points.
+- δt=7s and n the number of (independent) sampling points.
+- eitherapoliteoraselfishbehaviour. Here,wepresentresultswithc =0%,10%,60%,90%,and100%of
+- eitherapoliteoraselfishbehaviour. Here,wepresentresultswithc =0%,10%,60%,90%,and100%of
+- As expected, no collisions or contacts are observed with crowds of polite agents (c = 0%). On the
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: Itisneedlesstosay,though,thatthedescriptionormodellingofthedynamicsofcrowdsis,atthevery
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: least, challenging. Since first-principles approaches are hopeless in any conceivable future, models have
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: simplephysicalmodelsindescribingincreasinglycomplexentities(complexfluids, bacteria[3], birdsand
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: fish [4]) bolsters the desire for similarly successful models for pedestrian crowds. But how detailed, or
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: “realistic”, need these models be to appropriately describe the flow of pedestrians in a given situation?
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: The numerous existing models and simulation software [5, 6] vary greatly as regards their sophistication,
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: from minimalistic cellular automata [7] to continuous agent-based models incorporating a large number
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: arches can be broken provided that the system is vibrated strongly enough [16]. Therefore, in a model,
+  Code: Implement logic based on description
+  Difficulty: Medium
+

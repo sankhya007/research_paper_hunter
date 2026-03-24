@@ -1,0 +1,74 @@
+=== IMPORTANT INSIGHTS ===
+
+- models” [14] and other modeling approaches such as cellular automata [1, 23]. As
+- experiments with mice [34] and ants [3] there is still an evident lack of data on
+- Q(ρ)=ρV(ρ), (1)
+- jams[5,33,27,32,41,37].Formula(1)isoftenusedasabasisfordimensioningand
+- V(ρ)=V0 1 exp a , (2)
+- where V0 = 1.34m/s is the free speed at low densities and a = 1.913 persons per
+- scopic model for such flows. The situation we analyze in the following, however, is
+- specificationofparameters.Notethatthevideo-basedevaluationmethoddescribed
+- software did not do the job, we had to develop new algorithms which were capable
+- calibration of the method required several man years.
+- a new measurement method for local densities and flows. Problems like how to
+- 2.2. Video Tracking Method
+- the tracking algorithm.
+- Mosttrackingalgorithmsarerestrictedtotrackingseveraldozensofpedes-
+- of the tracking algorithm.
+- thetrackingalgorithmhasnotyettakeneffect.
+- illustrationofthemethodusedforthemanualcountingofpedestrians.Thecrowdvideoisplayed
+- Comparison of automatically and manually determined values, using the methods illustrated in
+- 3.1. Data Evaluation Method
+- density ρ(~r,t)=ρR(~r) at a location~r via the formula
+
+=== FORMULAS ===
+
+- Q(ρ)=ρV(ρ), (1)
+- V(ρ)=V0 1 exp a , (2)
+- where V0 = 1.34m/s is the free speed at low densities and a = 1.913 persons per
+- where V0 = 1.34m/s is the free speed at low densities and a = 1.913 persons per
+- density ρ(~r,t)=ρR(~r) at a location~r via the formula
+- ρ(~r,t)=ρR(~r)= exp[ ~r (t) ~r 2 /R 2 ], (3)
+- ~v(~r,t)=~vR(~r)= j j −k j − k (4)
+- and local speeds as v(~r,t) = v (~r) = ~vR(~r) , while local flows have been obtained
+- q(~r,t)=qR(~r)=ρ(~r,t)~v(~r,t). (5)
+- the weight of neighboring pedestrians located within the area A = πR2 of radius
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: models” [14] and other modeling approaches such as cellular automata [1, 23]. As
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: scopic model for such flows. The situation we analyze in the following, however, is
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: specificationofparameters.Notethatthevideo-basedevaluationmethoddescribed
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: calibration of the method required several man years.
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: a new measurement method for local densities and flows. Problems like how to
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: 2.2. Video Tracking Method
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: illustrationofthemethodusedforthemanualcountingofpedestrians.Thecrowdvideoisplayed
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: Comparison of automatically and manually determined values, using the methods illustrated in
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: 3.1. Data Evaluation Method
+  Code: Implement logic based on description
+  Difficulty: Easy
+

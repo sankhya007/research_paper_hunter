@@ -1,0 +1,93 @@
+=== IMPORTANT INSIGHTS ===
+
+- studies on behavior in stress and crisis situations, results from CFD models for
+- psychological model — its cognition. A crucial issue is the cognition of smoke or
+- simulation models have been developed that already for a number of years not
+- effective dose models. But to our knowledge there is no model that considers per-
+- tions, results from CFD models for e.g. fire dynamics simulations, and considers
+- visibility of signage and — adding a psychological model — its cognition. A cru-
+- models with high resolution in time and space to determine the influences on the
+- occupants. This was done using numerical calculation schemes (CFD models).
+- cial Force Model [3]. The latest version of the model [4] was extended, so it can
+- model. The successful reaction on external influences requires both the perception
+- The behavioral and decision model contrary to that has been developed newly
+- any instructions by the tunnel operators or rescue services are given. The model
+- impulsive or reflective action. Both types are distinguished by the model, and the
+- tional Effective Dose (FED) model by Purser is applied [6].
+- In this example, two 1,200 m long tunnels have been modeled. The first one
+- propane - and “toxic gas” - modeling the discharge of chlorine or ammonia - have
+- The model allows the realistic reproduction of episodes and respective escape
+
+=== FORMULAS ===
+
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: studies on behavior in stress and crisis situations, results from CFD models for
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: psychological model — its cognition. A crucial issue is the cognition of smoke or
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: simulation models have been developed that already for a number of years not
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: effective dose models. But to our knowledge there is no model that considers per-
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: tions, results from CFD models for e.g. fire dynamics simulations, and considers
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: visibility of signage and — adding a psychological model — its cognition. A cru-
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: models with high resolution in time and space to determine the influences on the
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: occupants. This was done using numerical calculation schemes (CFD models).
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: cial Force Model [3]. The latest version of the model [4] was extended, so it can
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: model. The successful reaction on external influences requires both the perception
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: The behavioral and decision model contrary to that has been developed newly
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: any instructions by the tunnel operators or rescue services are given. The model
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: impulsive or reflective action. Both types are distinguished by the model, and the
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: tional Effective Dose (FED) model by Purser is applied [6].
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: In this example, two 1,200 m long tunnels have been modeled. The first one
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: propane - and “toxic gas” - modeling the discharge of chlorine or ammonia - have
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: The model allows the realistic reproduction of episodes and respective escape
+  Code: Implement logic based on description
+  Difficulty: Medium
+

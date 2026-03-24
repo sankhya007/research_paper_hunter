@@ -1,0 +1,102 @@
+=== IMPORTANT INSIGHTS ===
+
+- sion. There have been increasing attempts on modelling crowded scenes by in-
+- amplesformodeltraining,orunseenpreviously.Existingcrowdanalysistechniques
+- thisproblem,weinvestigateanddevelopmethodsforrecognisingvisualcrowdbe-
+- ourmodellearnstojointlyrecognisemultiplecrowdbehaviouralattributesineach
+- tation of videos with known attributes. Our experiments show that this approach
+- to modelling multi-attribute context not only improves zero-shot crowd behaviour
+- decade[51,47,50,36,42,41].Mostexistingmethodsemployavideoanalysispro-
+- and learning discriminative recognition models from labelled data [42, 41]. How-
+- tributes have few or no training samples, it is hard to learn a model capable of
+- crowdanalysisapproach.
+- Inthischapter,weinvestigateanddevelopmethodsforzero-shotlearning(ZSL)
+- [23] based crowd behaviour recognition. We want to learn a generalisable model
+- on well annotated common crowd attributes. Once learned, the model can then
+- estwithoutanyannotatedtrainingsamples.TheZSLapproachismostlyexploited
+- textual prediction model (Fig. 2). We make the assumption that the detection of
+- attributes would support the existence of “violence”. Specifically, our model first
+- Fig.2:Inmodeltraining,welearnword-vectorrepresentationsoftrainingattributes
+- trainedcontextmodeltoestimatetheconditionalprobabilityP(“violence”|“mob”)
+- cannot be estimated directly by tabulation of annotation statistics. To model this
+- conditional,weconsidertwocontextuallearningapproaches.Thefirstapproachre-
+
+=== FORMULAS ===
+
+- FormallywehavetrainingdatasetTS={XS,YS,VS}associatedwithPknownat-
+- FormallywehavetrainingdatasetTS={XS,YS,VS}associatedwithPknownat-
+- tributes and testing dataset TT ={XT,YT,VT} associated with Q novel/unseen
+- tributes and testing dataset TT ={XT,YT,VT} associated with Q novel/unseen
+- attributes. We denote the visual feature for training and testing videos as XS =
+- attributes. We denote the visual feature for training and testing videos as XS =
+- ]∈RDx×NS and XT =[x
+- ]∈RDx×NS and XT =[x
+- trainingandtestingvideosasYS=[y˜
+- trainingandtestingvideosasYS=[y˜
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: sion. There have been increasing attempts on modelling crowded scenes by in-
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: amplesformodeltraining,orunseenpreviously.Existingcrowdanalysistechniques
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: thisproblem,weinvestigateanddevelopmethodsforrecognisingvisualcrowdbe-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: ourmodellearnstojointlyrecognisemultiplecrowdbehaviouralattributesineach
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: to modelling multi-attribute context not only improves zero-shot crowd behaviour
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: decade[51,47,50,36,42,41].Mostexistingmethodsemployavideoanalysispro-
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: and learning discriminative recognition models from labelled data [42, 41]. How-
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: tributes have few or no training samples, it is hard to learn a model capable of
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: Inthischapter,weinvestigateanddevelopmethodsforzero-shotlearning(ZSL)
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: [23] based crowd behaviour recognition. We want to learn a generalisable model
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: on well annotated common crowd attributes. Once learned, the model can then
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: textual prediction model (Fig. 2). We make the assumption that the detection of
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: attributes would support the existence of “violence”. Specifically, our model first
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: Fig.2:Inmodeltraining,welearnword-vectorrepresentationsoftrainingattributes
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: trainedcontextmodeltoestimatetheconditionalprobabilityP(“violence”|“mob”)
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: cannot be estimated directly by tabulation of annotation statistics. To model this
+  Code: Implement logic based on description
+  Difficulty: Medium
+

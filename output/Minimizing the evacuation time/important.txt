@@ -1,0 +1,78 @@
+=== IMPORTANT INSIGHTS ===
+
+- assignmentsoftheseguidestominimizetheevacuationtimeofthecrowd. Here, wemodeltheevacuatingcrowd
+- as a multi-agent system with the social force model and simple interaction rules for guides and their followers.
+- Weformulatetheproblemofminimizingtheevacuationtimeusingrescueguidesasastochasticcontrolproblem.
+- Then, we solve it with a procedure combining numerical simulation and a genetic algorithm (GA). The GA
+- complicated optimization. The attained results show that the procedure converges to an optimal evacuation
+- algorithms
+- evacuation plan. Rather attention needs to be paid to mathematical optimization approaches (Haghani, 2020).
+- knowledge, this problem has not been solved using a rigorous mathematical optimization approach.
+- experimental research on pedestrian behavior, descriptive mathematical modeling of crowd movement and
+- modelsandoptimizationapproachesis(Vermuytenetal.,2016). Themostpopularcrowdmovementmodeldue
+- to its ability to produce realistic physical movement is the microscopic agent-based social force model (Helbing
+- & Moln´ar, 1995). In it the movement of individual agents are described by Newton’s equations of motion.
+- A typical concern is that focusing mainly on physical movement in crowd evacuation modeling may poten-
+- crowd controlled by guides, such activities can be important but rare. From a modeling perspective, these
+- equations of motion (Helbing & Moln´ar, 1995). So, in this study, our main focus is not to tackle various human
+- Thereisaneedformathematicalapproachesforevacuationoptimization(Kurdietal.,2018;Haghani,2020).
+- time problem is formulated as a stochastic control problem, where the trajectories of the guides are solved.
+- a crowd to an exit. Still, with small changes, their modeling framework can be used for visible rescue guides.
+- Nevertheless, we are skeptical that the solution methods they propose for the problem would be applicable for
+- modeltodescribethecrowdmovement. Atthestarttheyoptimizethenumberandinitialpositionsoftheguides
+
+=== FORMULAS ===
+
+- N = {1,...,n} and G = {n+1,...,n+m} are the index sets of the exiting agents and guides, respectively.
+- N = {1,...,n} and G = {n+1,...,n+m} are the index sets of the exiting agents and guides, respectively.
+- vdes(t), where vdes(t) = vdes(t)edes(t). Here, vdes(t) is its desired speed, and edes(t) is a unit vector that points
+- If agents i and j, j ∈ N ∪G,j (cid:54)= i, are about to collide, they experience a repulsive social force fsoc(t).
+- m dv i = m v i des−v i + (cid:88) (fsoc+fc)+ (cid:88) fc +ξ ; (1)
+- m dv i = m v i des−v i + (cid:88) (fsoc+fc)+ (cid:88) fc +ξ ; (1)
+- j((cid:54)=i) w
+- = v (t). (2)
+- We discretize the space Ω into square grid cells ω, so that Ω ⊂ ∪ω = Ω¯. Also, we denote the points
+- associated with an exit by ε ⊂ E, so that E = ∪ε. Each guide g ∈ G = {n+1,...,n+m} is associated with a
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: assignmentsoftheseguidestominimizetheevacuationtimeofthecrowd. Here, wemodeltheevacuatingcrowd
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: as a multi-agent system with the social force model and simple interaction rules for guides and their followers.
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: experimental research on pedestrian behavior, descriptive mathematical modeling of crowd movement and
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: modelsandoptimizationapproachesis(Vermuytenetal.,2016). Themostpopularcrowdmovementmodeldue
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: to its ability to produce realistic physical movement is the microscopic agent-based social force model (Helbing
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: A typical concern is that focusing mainly on physical movement in crowd evacuation modeling may poten-
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: crowd controlled by guides, such activities can be important but rare. From a modeling perspective, these
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: a crowd to an exit. Still, with small changes, their modeling framework can be used for visible rescue guides.
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: Nevertheless, we are skeptical that the solution methods they propose for the problem would be applicable for
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: modeltodescribethecrowdmovement. Atthestarttheyoptimizethenumberandinitialpositionsoftheguides
+  Code: Implement logic based on description
+  Difficulty: Medium
+

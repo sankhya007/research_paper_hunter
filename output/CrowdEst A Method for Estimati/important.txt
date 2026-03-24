@@ -1,0 +1,94 @@
+=== IMPORTANT INSIGHTS ===
+
+- CrowdEst: A Method for Estimating (and not Simulating)
+- fully-modeled 3D environments and enough time to
+- and passages may change, so the 3D model and engineers and architects, evacuation procedures to
+- in mind, we present a novel approach to estimate despite presenting strong similarities with real-world
+- evaluated. Our method presents an average error of
+- environment.Ourcrowdestimatorapproachhasseveral
+- advantages, such as not requiring to model the 3D
+- employed CMA-ES [14,13], an evolutionary algorithm
+- growingexponentiallyasmoredetailsareaddedtothat a force-based approach that models evacuating
+- an evacuation planning approach. neighboring crowds. MIMOSA: Mine Interior Model
+- Hence, this paper presents a method whose goal Of Smoke and Action [20] is a specific application
+- is to estimate results of evacuation scenarios without of agent modeling within the context of a virtual
+- environment within its run-time. For achieving that propagation model, and a human physiology and
+- goal, we divide the environment to be analyzed into behavioralmodel.Theapproachesdescribedin[21,1,9]
+- capable of estimating the required information for the automaton algorithm, in which the motions and goals
+- we make use of a machine learning approach, namely Van Den Berg et al. [34] propose the method
+- scenariossimulatedbeforehand.Furthermore,wedefine each other. The method searches for the optimal
+- simulationapproachforthetaskofevacuationplanning them colliding, ensuring that the agents adopt the
+- planning. Section 3 describes our new approach to and evolutionary strategy (CMA-ES) to search for
+- detailed experimental analysis for validating our new employ Evolutionary Computation methods to evolve
+
+=== FORMULAS ===
+
+- n =f ×F , (1)
+- n =f ×F , (1)
+- of each room r using the ANN for obtaining tt . that do not have dependence (N = 0), i.e., the first
+- of each room r using the ANN for obtaining tt . that do not have dependence (N = 0), i.e., the first
+- f =0 and the flow Duration F =0.
+- f =0 and the flow Duration F =0.
+- Editor — and f = 0 and F = 0), the estimation
+- Editor — and f = 0 and F = 0), the estimation
+- flow f = 0 and flow duration F = 0 because no
+- flow f = 0 and flow duration F = 0 because no
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: CrowdEst: A Method for Estimating (and not Simulating)
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: fully-modeled 3D environments and enough time to
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: and passages may change, so the 3D model and engineers and architects, evacuation procedures to
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: evaluated. Our method presents an average error of
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: advantages, such as not requiring to model the 3D
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: growingexponentiallyasmoredetailsareaddedtothat a force-based approach that models evacuating
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: an evacuation planning approach. neighboring crowds. MIMOSA: Mine Interior Model
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: Hence, this paper presents a method whose goal Of Smoke and Action [20] is a specific application
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: is to estimate results of evacuation scenarios without of agent modeling within the context of a virtual
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: environment within its run-time. For achieving that propagation model, and a human physiology and
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: goal, we divide the environment to be analyzed into behavioralmodel.Theapproachesdescribedin[21,1,9]
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: we make use of a machine learning approach, namely Van Den Berg et al. [34] propose the method
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: scenariossimulatedbeforehand.Furthermore,wedefine each other. The method searches for the optimal
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: detailed experimental analysis for validating our new employ Evolutionary Computation methods to evolve
+  Code: Implement logic based on description
+  Difficulty: Easy
+

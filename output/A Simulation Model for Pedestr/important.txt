@@ -1,0 +1,109 @@
+=== IMPORTANT INSIGHTS ===
+
+- Cite as: Muhammed, D.A., Saeed, S.A.M., Rashid, T.A. (2019). A simulation model for pedestrian crowd evacuation based on various AI techniques.
+- A Simulation Model for Pedestrian Crowd Evacuation Based on Various AI Techniques
+- This paper attempts to design an intelligent simulation model for pedestrian crowd evacuation.
+- nearest neighbors (KNN), and some statistical equations. In this model, each pedestrian was
+- evacuation models, computational
+- modeling, simulation, participants’
+- Several experiments were carried out to verify the performance of the model in different
+- emergency scenarios. The results show that the proposed model can predict the evacuation
+- 1. INTRODUCTION emergencies [14-20]. Modeling is a way of answering
+- operation difficult due to adding confusion, fear and even authenticity of its procedures to be mentioned as a model [4].
+- vagueness and anxiety to mass residents [1]. Constructed Existing models can be separated into three main groups: the
+- environment, evacuees’ communication, and the plans and first one is classical models, the second one is hybridized
+- measures in place to direct the reactions of participants to models, and the third one is a generic model. Each group
+- environmental conditions and characteristics can influence the comprises some models, in the recent past; various
+- evacuation system. Therefore, various evacuation methods applications to investigate crowd evacuation in both normal
+- appear, such as protective, preventive, rescue, and and emergency situations were done due to these models.
+- reconstructive evacuations [2]. The problem of evacuation is Microscopic is one of the classical models and the details of
+- stage of pressure, and inadequate data. These circumstances gas, social force, agent-based, game theory, and experimental
+- illustrate robust communication between environment, danger, approaches were designed. In the last two decades, cellular
+- egress process, population demographics, and participant automata models have been created to consider an evacuating
+
+=== FORMULAS ===
+
+- participants is 35, thus, 20/35 = %57.14.
+- framework is designed based on the fuzzy logic idea, thus it Midvalue = lov + upv/2 (4)
+- framework is designed based on the fuzzy logic idea, thus it Midvalue = lov + upv/2 (4)
+- 𝑤𝑒𝑖𝑔ℎ𝑡𝑝𝑟𝑜𝑝 = ∑𝑛 𝑖 = 1 𝑝𝑤𝑖∗𝑠𝑟𝑑𝑖 (1) the mean equation [30] after combination the equation with
+- ∑𝑛 𝑖 = 1 𝑝𝑤𝑖 gender factor 𝑔𝑒𝑛 𝑖 and emergency coefficient𝑒𝑚 𝑖 .
+- 𝑝𝑤 𝑖 is the degree of the given property’s weight and 𝑠𝑟𝑑 𝑖 is desiredSpeed = (∑ n i= 1 pwi ) ∗ g ∗ e (5)
+- 𝑝𝑤 𝑖 is the degree of the given property’s weight and 𝑠𝑟𝑑 𝑖 is desiredSpeed = (∑ n i= 1 pwi ) ∗ g ∗ e (5)
+- 𝑤𝑒𝑖𝑔ℎ𝑡𝑝𝑟𝑜𝑝 = 𝑤𝑒𝑖𝑔ℎ𝑡𝑒𝑑 𝑚𝑒𝑎𝑛 = (𝑙𝑜 ∗ 𝑚𝑖𝑛𝑖𝑠𝑟𝑑 + 𝑢𝑝 ∗
+- 𝑤𝑒𝑖𝑔ℎ𝑡𝑝𝑟𝑜𝑝 = 𝑤𝑒𝑖𝑔ℎ𝑡𝑒𝑑 𝑚𝑒𝑎𝑛 = (𝑢𝑝 ∗ 𝑚𝑖𝑛𝑖𝑠𝑟𝑑 + 𝑙𝑜 ∗
+
+=== IMPLEMENTATION IDEAS ===
+
+- Idea: Cite as: Muhammed, D.A., Saeed, S.A.M., Rashid, T.A. (2019). A simulation model for pedestrian crowd evacuation based on various AI techniques.
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: A Simulation Model for Pedestrian Crowd Evacuation Based on Various AI Techniques
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: This paper attempts to design an intelligent simulation model for pedestrian crowd evacuation.
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: nearest neighbors (KNN), and some statistical equations. In this model, each pedestrian was
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: evacuation models, computational
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: modeling, simulation, participants’
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: Several experiments were carried out to verify the performance of the model in different
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: emergency scenarios. The results show that the proposed model can predict the evacuation
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: 1. INTRODUCTION emergencies [14-20]. Modeling is a way of answering
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: operation difficult due to adding confusion, fear and even authenticity of its procedures to be mentioned as a model [4].
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: vagueness and anxiety to mass residents [1]. Constructed Existing models can be separated into three main groups: the
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: environment, evacuees’ communication, and the plans and first one is classical models, the second one is hybridized
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: measures in place to direct the reactions of participants to models, and the third one is a generic model. Each group
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: environmental conditions and characteristics can influence the comprises some models, in the recent past; various
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: evacuation system. Therefore, various evacuation methods applications to investigate crowd evacuation in both normal
+  Code: Implement logic based on description
+  Difficulty: Easy
+
+- Idea: appear, such as protective, preventive, rescue, and and emergency situations were done due to these models.
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: reconstructive evacuations [2]. The problem of evacuation is Microscopic is one of the classical models and the details of
+  Code: Implement logic based on description
+  Difficulty: Medium
+
+- Idea: egress process, population demographics, and participant automata models have been created to consider an evacuating
+  Code: Implement logic based on description
+  Difficulty: Medium
+

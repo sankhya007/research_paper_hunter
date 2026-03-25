@@ -1,0 +1,1 @@
+you need this output folder to make the code work or else it is going to crash and not actually give you any output, it would have been implemented in the code but i was too lazy to edit. Enjoy <3

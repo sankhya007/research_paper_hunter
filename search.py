@@ -22,12 +22,12 @@ def expand_query(query):
 
 import requests
 
-def search_semantic_scholar(query):
+def search_semantic_scholar(query, limit=50):
     url = "https://api.semanticscholar.org/graph/v1/paper/search"
     
     params = {
         "query": query,
-        "limit": 50,
+        "limit": limit,
         "fields": "title,authors,year,url"
     }
 
@@ -46,13 +46,13 @@ def search_semantic_scholar(query):
     data = response.json()
     return data.get("data", [])
 
-def search_papers(query):
+def search_papers(query, limit=50):
 
     print("🔍 Searching Semantic Scholar...")
-    semantic_results = search_semantic_scholar(query)
+    semantic_results = search_semantic_scholar(query, limit)
 
     print("🔍 Searching arXiv...")
-    arxiv_results = search_arxiv(query)
+    arxiv_results = search_arxiv(query, limit)
 
     all_results = semantic_results + arxiv_results
 
@@ -66,7 +66,7 @@ def search_papers(query):
             seen.add(title)
             unique.append(paper)
 
-    return unique
+    return unique[:limit]
 
 def search_arxiv(query, limit=50):
     from urllib.parse import quote

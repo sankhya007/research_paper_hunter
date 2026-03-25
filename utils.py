@@ -19,6 +19,22 @@ def download_pdf(url, filename):
         print("Download error:", e)
         return None
 
+def list_downloaded_papers():
+
+    import os
+
+    if not os.path.exists("output"):
+        print("No downloaded papers yet.")
+        return []
+
+    folders = os.listdir("output")
+
+    print("\n📂 Downloaded Papers:\n")
+
+    for i, f in enumerate(folders):
+        print(f"[{i}] {f}")
+
+    return folders
 
 def save_extracted_insights(output_folder, insights, formulas, implementations):
 

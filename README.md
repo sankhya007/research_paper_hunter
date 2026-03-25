@@ -2,80 +2,125 @@
 
 ## Overview
 
-Research Paper Bot is a Python-based system designed to automate the discovery, selection, and analysis of academic research papers. It integrates semantic search techniques with reliable data sources such as Semantic Scholar and arXiv to provide a scalable pipeline for extracting meaningful insights from scientific literature.
+Research Paper Bot is a modular, domain-agnostic research assistant designed to automate the discovery, filtering, and analysis of academic research papers.
 
-The system is built with a human-in-the-loop approach, allowing users to manually select relevant papers before processing, ensuring both precision and control.
+The system integrates multiple research sources (Semantic Scholar and arXiv), applies keyword-driven contextual filtering, and extracts structured insights such as methodologies, formulas, and implementation ideas.
 
----
-
-## Key Features
-
-* Multi-source research paper retrieval (Semantic Scholar + arXiv)
-* Query expansion for improved semantic search coverage
-* Numbered listing of papers for manual selection
-* Selective processing of chosen papers only
-* Automated PDF downloading (where available)
-* Text extraction from research papers
-* Insight extraction based on methodological and experimental keywords
-* Formula detection from textual content
-* Generation of implementation ideas with pseudo-code
-* Structured output storage for further analysis
-* CSV export for summarized results
+It is built to support both targeted research (e.g., crowd evacuation modeling) and general-purpose exploration across multiple domains including artificial intelligence, robotics, healthcare, and systems engineering.
 
 ---
 
-## System Workflow
+## Core Objectives
 
-1. User inputs a research topic
+* Reduce time spent manually reading research papers
+* Extract only the most relevant information based on user intent
+* Provide structured insights that can be directly implemented
+* Enable domain-specific research workflows through presets
 
-2. System performs:
+---
 
-   * Query expansion
-   * Semantic Scholar search
-   * arXiv fallback search
+## Key Capabilities
 
-3. Papers are displayed as a numbered list
+### 1. Multi-Source Paper Retrieval
 
-4. User selects relevant papers using indices
+* Queries Semantic Scholar API
+* Falls back to arXiv for reliable PDF access
+* Supports user-defined number of papers
 
-5. Selected papers are processed:
+### 2. Interactive Paper Selection
+
+* Displays indexed list of papers
+* Allows selective processing instead of bulk analysis
+
+### 3. Keyword-Driven Contextual Filtering
+
+* Extracts only relevant portions of text based on:
+
+  * preset keyword sets
+  * custom user-defined keywords
+* Includes context window for better understanding
+
+### 4. Domain-Adaptive Preset System
+
+Supports 50+ domains including:
+
+* Crowd dynamics (panic, congestion, hazard)
+* Machine learning, deep learning
+* Robotics and control systems
+* Computer vision and NLP
+* Distributed systems and networking
+* Mathematics and simulation
+* Healthcare and bioinformatics
+* Finance and economics
+
+### 5. Insight Extraction Engine
+
+Identifies:
+
+* Models and methodologies
+* Algorithms and approaches
+* Experimental results
+* Implementation-related content
+
+### 6. Formula Detection
+
+* Extracts mathematical expressions and equations
+* Useful for simulation and modeling tasks
+
+### 7. Implementation Generator
+
+* Converts insights into:
+
+  * pseudo-code
+  * actionable ideas
+  * difficulty estimates
+
+### 8. Persistent Storage System
+
+* Saves results per paper in structured folders
+* Maintains history of downloaded papers
+* Supports re-download control
+
+---
+
+## System Architecture
+
+The system follows a modular pipeline:
+
+User Input → Search → Selection → Extraction → Processing → Output
+
+### Detailed Flow
+
+1. User Input
+
+   * Topic
+   * Number of papers
+   * Mode (preset or custom keywords)
+
+2. Search Layer
+
+   * Semantic Scholar API
+   * arXiv API fallback
+   * Deduplication of results
+
+3. Selection Layer
+
+   * Indexed paper display
+   * Manual user selection
+
+4. Processing Layer
 
    * PDF download
    * Text extraction
-   * Insight detection
-   * Formula extraction
-   * Implementation idea generation
+   * Keyword filtering with context
+   * Insight extraction
+   * Formula detection
+   * Implementation generation
 
-6. Results are saved locally for analysis
+5. Output Layer
 
----
-
-## Example Usage
-
-```bash
-python main.py
-```
-
-Input:
-
-```
-crowd evacuation
-```
-
-Output:
-
-```
-[0] Paper A
-[1] Paper B
-[2] Paper C
-...
-```
-
-Selection:
-
-```
-1 2 5 10
-```
+   * Structured text files
+   * CSV summary
 
 ---
 
@@ -84,20 +129,22 @@ Selection:
 ```
 research_paper_bot/
 │
-├── main.py                # Entry point and workflow control
-├── search.py              # Semantic Scholar + arXiv search logic
-├── parser.py              # PDF text extraction and parsing
-├── analyzer.py            # Insight extraction logic
+├── main.py                # Entry point and orchestration
+├── search.py              # API integration and paper retrieval
+├── parser.py              # PDF parsing and text extraction
+├── analyzer.py            # Insight extraction and filtering
 ├── extractor.py           # Implementation idea generation
-├── scorer.py              # Paper scoring mechanism
-├── utils.py               # Utility functions (download, save)
-├── memory.py              # Tracks processed papers
+├── scorer.py              # Paper scoring logic
+├── utils.py               # Utility functions (download, save, history)
+├── presets.py             # Keyword preset definitions
+├── memory.py              # Processed paper tracking
 │
-├── requirements.txt       # Project dependencies
-├── README.md              # Documentation
-├── .gitignore             # Ignored files
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
 │
-└── output/                # Generated outputs (ignored in git)
+└── output/                # Generated outputs (ignored in Git)
 ```
 
 ---
@@ -107,8 +154,8 @@ research_paper_bot/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/research-paper-bot.git
-cd research-paper-bot
+git clone https://github.com/sankhya007/research_paper_hunter.git
+cd research_paper_hunter
 ```
 
 Install dependencies:
@@ -119,48 +166,160 @@ pip install -r requirements.txt
 
 ---
 
-## Output
+## Usage Guide
 
-All processed results are stored in the `output/` directory.
+Run the program:
 
-For each paper:
+```bash
+python main.py
+```
 
-* Extracted insights
-* Detected formulas
-* Implementation ideas
+### Step 1: Select Mode
 
-Additionally:
-
-* `results.csv` containing summarized analysis of all processed papers
+```
+1. Search new papers
+2. View downloaded papers
+```
 
 ---
 
-## Technical Highlights
+### Step 2: Enter Inputs
 
-* Modular architecture for extensibility
-* Hybrid search strategy combining semantic and keyword-based retrieval
-* Lightweight NLP approach for extracting meaningful insights
-* Robust error handling for unreliable PDFs
-* Deduplication logic for multi-source aggregation
+Example:
+
+```
+Topic: crowd evacuation
+How many papers: 20
+Mode: panic
+```
+
+---
+
+### Step 3: Select Papers
+
+```
+[0] Paper A
+[1] Paper B
+[2] Paper C
+...
+
+Enter indices:
+1 2 5
+```
+
+---
+
+### Step 4: Processing
+
+For each selected paper:
+
+* PDF is downloaded
+* Text is extracted
+* Relevant sections are filtered
+* Insights and formulas are extracted
+* Implementation ideas are generated
+
+---
+
+## Output Format
+
+Each paper generates:
+
+```
+output/<paper_name>/
+    important.txt
+```
+
+### important.txt contains:
+
+* Important insights
+* Extracted formulas
+* Implementation ideas with pseudo-code
+
+Additionally:
+
+```
+output/results.csv
+```
+
+Contains a summary of all processed papers.
+
+---
+
+## Keyword Filtering Mechanism
+
+The system filters text using:
+
+* Keyword matching (case-insensitive)
+* Context window expansion (±2 lines)
+
+Example:
+
+If keyword = "panic"
+
+Extracted content:
+
+* Lines containing "panic"
+* Surrounding context for better understanding
+
+---
+
+## Extending the System
+
+### Adding New Presets
+
+Edit `presets.py`:
+
+```
+"your_domain": ["keyword1", "keyword2", ...]
+```
+
+---
+
+### Modifying Insight Extraction
+
+Edit `analyzer.py`:
+
+* Add new patterns
+* Improve filtering logic
+
+---
+
+### Enhancing Implementation Generator
+
+Edit `extractor.py`:
+
+* Add domain-specific pseudo-code generation
+* Improve difficulty estimation
 
 ---
 
 ## Limitations
 
-* Some research papers may not include accessible PDF links
-* PDF parsing may fail for scanned or non-standard documents
-* External APIs may impose rate limits or incomplete responses
+* Some papers may not provide downloadable PDFs
+* PDF parsing may fail for scanned documents
+* Semantic Scholar API may rate-limit requests
+* Keyword filtering depends on text quality
 
 ---
 
-## Future Work
+## Future Improvements
 
-* Integration with additional academic databases (CrossRef, OpenAlex)
-* Advanced ranking and relevance scoring
-* Topic-based clustering of research papers
-* LaTeX-based formula parsing
-* GUI-based interface for improved usability
-* Integration with simulation frameworks such as crowd evacuation systems
+* API retry and caching system
+* Insight ranking based on importance
+* Keyword highlighting in outputs
+* GUI-based interface
+* Integration with simulation systems (e.g., TRAGIC)
+* Automated mapping of insights to executable models
+
+---
+
+## Use Cases
+
+* Research students extracting key insights quickly
+* Simulation developers building models from papers
+* AI practitioners exploring new methodologies
+* Cross-domain literature analysis
 
 ---
 
@@ -172,4 +331,4 @@ Sankhyapriyo Dey
 
 ## License
 
-Licensed under the MIT License
+This project is licensed under the MIT License.
